@@ -1,0 +1,36 @@
+h3 {
+    margin: 0 0 12px 0;
+    font-size: 18px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .form-input {
+    flex: 1;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .form-btn {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .form-btn:disabled {
+    background: #aaa;
+    cursor: not-allowed;
+  }
+  

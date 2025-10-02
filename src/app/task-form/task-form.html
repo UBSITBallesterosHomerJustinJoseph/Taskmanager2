@@ -1,0 +1,12 @@
+<h3>Add New Task</h3>
+
+<div class="form-row">
+  <input
+    [(ngModel)]="taskTitle"
+    class="form-input"
+    placeholder="Enter a new task"
+    (keydown.enter)="addTask()"
+  />
+  <button class="btn" (click)="addTask()" [disabled]="!taskTitle.trim()">Add</button>
+
+</div>

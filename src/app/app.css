@@ -1,0 +1,26 @@
+.app-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .app-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .app-header h1 {
+    font-size: 28px;
+    color: #222;
+  }
+  
+  .app-section {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  }
+  

@@ -1,0 +1,46 @@
+h3 {
+    margin-bottom: 12px;
+    font-size: 18px;
+  }
+  
+  .task-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .task-item:last-child {
+    border-bottom: none;
+  }
+  
+  .task-item input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+  
+  .task-item span {
+    font-size: 14px;
+  }
+  
+  .task-item span.done {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .summary {
+    margin-top: 12px;
+    padding: 10px;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
